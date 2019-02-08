@@ -1,0 +1,22 @@
+{
+  "name": "pageObjects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "start": "node ./dist/index.js",
+    "test": "protractor ./dist/sandBox/protractor.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.3.8",
+    "@types/protractor": "^4.0.0",
+    "jasmine": "^3.3.1",
+    "protractor": "^5.4.2",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.3"
+  }
+}
